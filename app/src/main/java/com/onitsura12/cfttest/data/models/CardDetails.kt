@@ -1,9 +1,9 @@
-package com.onitsura12.cfttest.network.models
+package com.onitsura12.cfttest.data.models
 
 import com.google.gson.annotations.SerializedName
-import java.net.URL
 
 data class CardDetails(
+    val id: Int,
     @SerializedName("scheme")
     val scheme: String?,
     @SerializedName("type")
@@ -22,7 +22,7 @@ data class Bank(
     @SerializedName("name")
     val name: String?,
     @SerializedName("url")
-    val url: URL?,
+    val url: String?,
     @SerializedName("phone")
     val phone: String?,
     @SerializedName("city")

@@ -1,6 +1,6 @@
 package com.onitsura12.cfttest.network
 
-import com.onitsura12.cfttest.network.models.CardDetails
+import com.onitsura12.cfttest.data.models.CardDetails
 import retrofit2.http.GET
 import retrofit2.http.Path
 
