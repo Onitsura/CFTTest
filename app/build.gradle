@@ -1,6 +1,8 @@
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
+    id 'kotlin-kapt'
+    id 'com.google.dagger.hilt.android'
 }
 
 android {
@@ -37,6 +39,12 @@ android {
 }
 
 dependencies {
+
+    //Hilt
+    implementation 'com.google.dagger:hilt-android:2.44.2'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    kapt 'com.google.dagger:hilt-compiler:2.44.2'
+    implementation 'androidx.fragment:fragment-ktx:1.5.5'
 
     //ViewModel + LiveData
     implementation 'android.arch.lifecycle:extensions:1.1.1'

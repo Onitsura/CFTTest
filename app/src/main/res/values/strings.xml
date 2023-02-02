@@ -1,3 +1,25 @@
 <resources>
     <string name="app_name">CFTTest</string>
+    <string name="et_card_number_hint">Введите первые 8 цифр карты</string>
+    <string name="check_button">Получить данные</string>
+    <string name="tv_scheme">Платежная система</string>
+    <string name="scheme_sample">Mastercard</string>
+    <string name="tv_brand">Бренд</string>
+    <string name="tv_type">Тип</string>
+    <string name="card_type">Credit</string>
+    <string name="tv_country">Страна</string>
+    <string name="country_sample">Russian Federation</string>
+    <string name="tv_long">долгота</string>
+    <string name="longitude_sample">60</string>
+    <string name="tv_latitude">широта</string>
+    <string name="latitude_sample">100</string>
+    <string name="tv_prepaid">Предоплаченная</string>
+    <string name="prepaid_sample">Да</string>
+    <string name="tv_bank">Банк</string>
+    <string name="bank_sample">Русский стандарт</string>
+    <string name="tv_bank_url">Сайт</string>
+    <string name="tv_bank_phone">Телефон</string>
+    <string name="phone_sample">+74951112233</string>
+    <string name="tv_bank_city">Город</string>
+    <string name="city_sample">Москва</string>
 </resources>
